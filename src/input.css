@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .btn{
+        @apply bg-blue-500 rounded-md py-3 px-4 font-medium text-white font-serif
+    }
+}
+@layer components{
+    .div{
+        @apply lg:flex lg:items-center lg:bg-gray-200 lg:rounded-3xl lg:border-black lg:border-2 lg:px-4 lg:py-2
+    }
+    
+}
+@layer components{
+    .img{
+        @apply lg:h-96 lg:p-4 lg:rounded-3xl
+    }
+}
+
+@layer components{
+    .p{
+        @apply lg:flex lg:font-serif lg:text-2xl
+    }
+}
+@layer components{
+    .div2{
+        @apply lg:flex lg:items-center lg:bg-white lg:rounded-3xl lg:border-blue-200 lg:border-2 lg:px-4 lg:py-2 lg:p-4
+    }
+}
